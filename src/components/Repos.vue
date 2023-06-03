@@ -8,7 +8,7 @@
     </div>
 </template>
 <script>
-    import Issues from "./repo/Issues.vue"
+    import Issues from "./../components/repo/issue/Issues.vue"
     import { octokitMixin } from "../mixins/octokitMixin";
 
     export default{

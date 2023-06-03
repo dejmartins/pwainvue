@@ -9,7 +9,7 @@
     </div>
 </template>
 <script>
-    import { octokitMixins } from "../../../mixins/octokitMixin"
+    import { octokitMixin } from '../../../mixins/octokitMixin';
 
     export default{
         name: "IssueComments",
@@ -32,7 +32,7 @@
                 comments: []
             }
         }, 
-        mixins: [octokitMixins],
+        mixins: [octokitMixin],
         methods: {
             async getIssueComments(owner, repo, issueNumber){
                 if( 
